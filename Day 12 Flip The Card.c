@@ -11,11 +11,11 @@ int main()
         int cards_left = total_cards - face_up;
         if (cards_left < face_up)
         {
-            printf("%d", cards_left);
+            printf("%d\n", cards_left);
         }
         else
         {
-            printf("%d", face_up);
+            printf("%d\n", face_up);
         }
     }
 
